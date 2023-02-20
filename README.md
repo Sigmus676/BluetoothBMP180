@@ -2,7 +2,7 @@
 A simple python script that sends data from a BMP180 to a Bluetooth device  
 In order to run this python file, the Smbus and Pybluez packages need to be installed using these commands:
 
-1. sudo apt-get install python-smbus
+1. sudo apt-get install python-smbus (imports smbus which will act as an interface for the BMP180)
 2. sudo apt-get install libbluetooth-dev
 3. sudo apt-get install python-dev
 4. sudo pip install PyBluez
